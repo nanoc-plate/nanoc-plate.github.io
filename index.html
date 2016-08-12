@@ -25,6 +25,17 @@
       <nav class="ui borderless menu" lang="en">
         <div class="ui container">
           <a class="item" href="/"><img src="/static/images/gravatar.svg" /></a><a class="item" href="/posts">Posts</a><a class="item desktop-only" href="/categories">Categories</a><a class="item desktop-only" href="/tags">Tags</a><a class="item" href="/notes">Notes</a><a class="item" href="/#about">About</a>
+          <div class="right menu">
+            <div class="item desktop-only">
+              <form action="https://www.google.com/search" class="ui form" method="get" target="_blank">
+                <input name="q" type="hidden" value="site:nanoc-plate.github.io" />
+                <div class="ui transparent left icon input">
+                  <input name="q" placeholder="Search..." type="text" /><i class="search icon"></i>
+                </div>
+              </form>
+            </div>
+            <a class="item" href="https://github.com/nanoc-plate"><i class="github icon"><a class="item desktop-only" href="/atom.xml"></a></i><i class="feed icon"></i></a>
+          </div>
         </div>
       </nav><div class="ui stackable container">
         <div class="ui very padded segment article">
